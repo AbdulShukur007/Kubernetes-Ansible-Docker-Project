@@ -5,4 +5,4 @@ From tomcat:latest
 MAINTAINER "Abdul Shukur" 
 
 # copy war file on to container 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./*.war /usr/local/tomcat/webapps
